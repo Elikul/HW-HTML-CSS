@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f8f8;
+}
+
+/*Меню*/
+.menu li {
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    list-style-type: none;
+}
+
+.menu li a {
+    color: darkviolet;
+}
+
+/*Заголовки разного описания товаров*/
+.shortDescription {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+/*Текст краткое описание товаров*/
+.DescriptionGood {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+/*Текст подробного описания товара и производства*/
+.DeteiledGood,
+.production {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+/*Список внутри характеристики товара*/
+.characteristics li {
+    color: #505050;
+    font-size: 18px;
+    font-weight: 200;
+    list-style-image: url(img/sparkl.png)
+}
+
+input[type="text"],
+[type="email"] {
+    height: 18px;
+    width: 170px;
+    color: slateblue;
+    font-size: 15px;
+    font-family: "Tahoma";
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+textarea {
+    width: 325px;
+    height: 200px;
+    color: slateblue;
+    font-family: "Tahoma";
+}
+
+button[type="submit"],
+[type="reset"] {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    font-style: oblique;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #cc0099;
+    font-style: oblique;
+}
+
+iframe {
+    height: 500px;
+    width: 500px;
+}
+
+h2 {
+    color: #cc0099;
+    font-family: "Book old style";
+    font-size: 20px;
+}
+
+img {
+    outline: 4px solid #FF99Ff;
+}
+
+.greeting {
+    text-align: center;
+    font-family: "Book old style";
+    font-size: 15px;
+}
