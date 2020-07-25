@@ -1,0 +1,187 @@
+body {
+    background-color: #f8f8f8;
+}
+
+
+/*Меню*/
+
+.menu_li {
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Book Antiqua";
+    list-style-type: none;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.menu_link {
+    color: #FF0066;
+}
+
+
+/*Заголовки разного описания товаров*/
+
+.shortDescription {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+
+/*Текст краткое описание товаров*/
+
+.DescriptionGood {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+
+/*Текст подробного описания товара и производства*/
+
+.DeteiledGood,
+.production {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+/*Список внутри характеристики товара*/
+
+.characteristics li {
+    color: #505050;
+    font-size: 18px;
+    font-weight: 200;
+    list-style-image: url(img/sparkl.png)
+}
+
+input[type="text"],
+[type="email"] {
+    height: 18px;
+    width: 170px;
+    color: slateblue;
+    font-size: 15px;
+    font-family: "Tahoma";
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+textarea {
+    width: 325px;
+    height: 200px;
+    color: slateblue;
+    font-family: "Tahoma";
+    text-transform: capitalize;
+}
+
+button[type="submit"],
+[type="reset"] {
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    font-style: oblique;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #cc0099;
+    font-style: oblique;
+}
+
+iframe {
+    height: 500px;
+    width: 500px;
+}
+
+h2 {
+    color: #cc0099;
+    font-family: "Book old style";
+    font-size: 20px;
+}
+
+img {
+    outline: 5px solid #FF99Ff;
+}
+
+
+.greeting {
+    text-align: center;
+    font-family: "Book old style";
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu_link:hover:before {
+    content: ">> ";
+    color: skyblue;
+}
+
+.menu_link:hover {
+    color: skyblue;
+}
+
+a,
+.menu_link:active {
+    color: #CC6699;
+}
+
+.header {
+    background-image: url(img/header.png);
+    height: 240px;
+}
+
+.footer {
+    height: 20px;
+    background-color: #660066;
+    color: white;
+}
+
+input[type="email"]:focus {
+    color: #6600FF;
+    background-color: antiquewhite;
+}
+
+.table {
+    border: 1px solid #f39;
+    width: 350px;
+    height: 250px;
+    border-collapse: collapse;
+}
+
+.table_coll {
+    border: 1px solid #f39;
+    padding-left: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.dtimg:hover {
+    outline: transparent;
+}
+
+p:first-letter {
+    color: #00FFCC;
+    font-family: "Arial";
+    font-size: 18px;
+}
+
+.logotip {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
