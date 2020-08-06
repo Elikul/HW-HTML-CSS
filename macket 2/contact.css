@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex-grow: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto 212px;
+}
+
+.top {
+    max-height: 471px;
+}
+
+.top__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37.18px 212px 54px 212px;
+}
+
+.backgroud__top {
+    height: 252px;
+    background-image: url(img/bacground\ top.png);
+    background-repeat: no-repeat;
+}
+
+
+.top__content {
+    max-width: 870px;
+    text-align: center;
+    margin: auto;
+}
+
+.top__heading {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding-top: 51px;
+    padding-bottom: 16px;
+}
+
+.text {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact_block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact__information,
+.table__information,
+.telefones,
+.services {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__information {
+    width: 301px;
+    margin-top: 135px;
+}
+
+
+.contacts_inf_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.contacts_headings {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    padding-bottom: 24px;
+    padding-top: 40px;
+}
+
+.telefones_1,
+.site {
+    padding-bottom: 16px;
+}
+
+
+.telefones_1::before,
+.telefones_2::before {
+    content: url(img/tel.svg);
+    padding-right: 19px;
+}
+
+.site::before {
+    content: url(img/internet.svg);
+    padding-right: 18px;
+
+}
+
+.mail::before {
+    content: url(img/mail.svg);
+    padding-right: 18px;
+}
+
+.telefones_1:hover,
+.telefones_2:hover,
+.site:hover,
+.mail:hover {
+    text-decoration-line: underline;
+}
+
+.table__information {
+    width: 540px;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-top: 65px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
+
+.form {
+    padding-top: 24px;
+}
+
+.form_headings {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    padding-bottom: 8px;
+}
+
+input[type="text"],
+[type="email"] {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+    width: 428px;
+    min-height: 72px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 36px;
+    margin-bottom: 32px;
+}
+
+.message {
+    width: 428px;
+    height: 144px;
+}
+
+button[type="submit"] {
+    width: 428px;
+    height: 72px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+button[type="submit"]:hover {
+    background-color: #316099;
+}
+
+.geomap {
+    margin-top: 96px;
+}
+
+.footer {
+    background-color: #316099;
+    margin-top: 112px;
+}
+
+
+.footer_talk {
+    border-bottom: 1px solid #FFFFFF;
+    padding-top: 91px;
+    padding-left: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 113px;
+    padding-bottom: 96px;
+}
+
+
+.footer__heading {
+    max-width: 340.96px;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+.text_width_color {
+    max-width: 494.77px;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.button_talk {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    width: 236.63px;
+    height: 56px;
+    background: #5A98D0;
+    display: inline-block;
+    padding: 15px 80px;
+}
+
+.button_talk:hover {
+    background-color: #FFFFFF;
+    color: #316099;
+}
+
+
+.footer__contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+}
+
+.contact {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-left: 113px;
+    padding-bottom: 64px;
+    padding-right: 114px;
+}
+
+.contact_1::before {
+    content: "A.";
+}
+
+.contact_2::before {
+    content: "T.";
+}
+
+.contact_3::before {
+    content: "E.";
+}
+
+.contact_1::before,
+.contact_2::before,
+.contact_3::before {
+    padding-right: 19.21px;
+}
+
+.contact_2:hover,
+.contact_3:hover {
+    text-decoration-line: underline;
+}
+
+.coopiryght {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
+    padding-left: 113px;
+    padding-bottom: 64px;
+}
+
+@media(max-width:1023px) {
+
+    .container {
+        margin: auto 124px;
+    }
+
+
+    .contact__information {
+        margin-left: 110px;
+    }
+
+    .header {
+        padding: 10px 32px 46px 32px;
+    }
+
+    .table__information {
+        width: 100%;
+    }
+
+    .geomap {
+        margin-top: 64px;
+    }
+
+    .footer {
+        margin-top: 64px;
+    }
+
+    .footer_talk {
+        padding-top: 47px;
+        padding-left: 124px;
+    }
+
+    .button_talk {
+        width: 133.04px;
+        height: 31.48px;
+        padding: 3px 0px 10.48px 0.04px;
+    }
+
+    .footer__heading {
+        width: 336px;
+    }
+
+    .text_width_color {
+        width: 336px;
+    }
+
+    .contact {
+        padding-left: 124px;
+        padding-right: 129px;
+        padding-bottom: 25px;
+    }
+
+    .contact_3 {
+        padding-bottom: 64px;
+    }
+
+    .contact_1::before,
+    .contact_2::before,
+    .contact_3::before {
+        padding-right: 36.87px;
+    }
+
+    .coopiryght {
+        padding-left: 125px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .container {
+        margin: auto 16px;
+    }
+
+
+    .contact__information {
+        margin-left: 21px;
+    }
+
+
+    .header {
+        padding: 10px 16px 30px 32px;
+    }
+
+    .table__information {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 35px;
+    }
+
+    .top__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    input[type="text"],
+    [type="email"] {
+        width: 271.6px;
+        min-height: 46.26px;
+    }
+
+    .message {
+        width: 271.6px;
+        height: 92.52px;
+    }
+
+    button[type="submit"] {
+        width: 271.6px;
+        height: 46.26px;
+    }
+
+    .geomap {
+        margin-top: 32px;
+    }
+
+    .footer {
+        margin-top: 32px;
+    }
+
+    .footer_talk {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .footer_talk {
+        padding-top: 18px;
+        padding-bottom: 41px;
+    }
+
+    .text_width_color {
+        padding-bottom: 40px;
+    }
+
+    .contact {
+        padding-left: 16px;
+        padding-right: 15px;
+        padding-bottom: 17px;
+        line-height: 19px;
+    }
+
+    .footer__contact {
+        padding-top: 32px;
+    }
+
+    .contact_3 {
+        padding-bottom: 37px;
+    }
+
+    .contact_1::before,
+    .contact_2::before,
+    .contact_3::before {
+        padding-right: 23px;
+    }
+
+    .coopiryght {
+        padding-left: 125px;
+        padding-bottom: 32px;
+    }
+
+}
