@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex-grow: 1;
+    background-color: #f8f8f8;
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.content {
+    height: 450px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.header {
+    background-image: url(img/header.png);
+    height: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.menu_li {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Bookman Old Style";
+    list-style-type: none;
+    padding-right: 50px;
+}
+
+.menu_link {
+    color: #FF0066;
+    transition: color 0.3s;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.site_link:hover {
+    text-decoration-line: underline;
+}
+
+
+.menu_link:hover {
+    color: #ee82ee;
+}
+
+a,
+.menu_link:active {
+    color: #c71585;
+}
+
+img {
+    outline: 5px solid #FF99Ff;
+}
+
+
+.logotip {
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    transition: outline 0.5s;
+}
+
+.logotip:hover {
+    outline: none;
+}
+
+.logotip:active {
+    outline: 5px solid #c71585;
+}
+
+.nowIs {
+    color: #8a2be8;
+}
+
+h1 {
+    text-align: center;
+    color: #cc0099;
+    font-style: oblique;
+    padding: 20px;
+}
+
+
+.greeting {
+    text-align: center;
+    font-family: "Bookman Old Style";
+    font-size: 20px;
+}
+
+.contact {
+    background-color: #f8f8f8;
+}
+
+
+h2 {
+    color: #cc0099;
+    font-family: "Bookman Old Style";
+    padding: 20px 30px;
+}
+
+.form {
+    border: 2px solid #FF99FF;
+    width: 400px;
+    border-radius: 30px;
+    background-color: #FFCCFF;
+    margin-left: 30px;
+    padding: 20px 20px;
+}
+
+.form_headings {
+    font-family: "Bookman Old Style";
+    font-size: 16px;
+}
+
+input {
+    width: 300px;
+    color: #8a2be2;
+    font-size: 14px;
+    font-family: "Tahoma";
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px indigo;
+    outline: none;
+}
+
+input[type="text"] {
+    text-transform: capitalize;
+}
+
+input[type="email"]:focus {
+    color: #6600FF;
+    background-color: antiquewhite;
+}
+
+textarea {
+    width: 350px;
+    height: 200px;
+    color: #8a2be2;
+    font-family: "Tahoma";
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px indigo;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button[type="submit"],
+[type="reset"] {
+    font-family: "Bookman Old Style";
+    font-size: 16px;
+    font-style: oblique;
+    padding: 10px;
+    border: solid 1px indigo;
+    border-radius: 5px;
+    outline: none;
+    background-color: #da70d6;
+    color: white;
+    transition: all 0.1s;
+
+}
+
+button[type="submit"]:hover,
+[type="reset"]:hover {
+    border-bottom: solid 3px indigo;
+}
+
+button[type="submit"]:active,
+[type="reset"]:active {
+    border-bottom: none;
+    border-top: solid 2px indigo;
+
+}
+
+.adress {
+    margin-left: 50px;
+    font-family: "Bookman Old Style";
+    font-size: 16px;
+}
+
+iframe {
+    height: 374px;
+    width: 90%;
+    margin: 20px 50px;
+}
+
+
+.figcaption {
+    font-family: "Bookman Old Style";
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    color: #cc0099;
+    padding: 10px;
+    transition: color 0.4s;
+}
+
+
+.block_img {
+    display: inline-flex;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+}
+
+.dtimg:hover {
+    outline: transparent;
+}
+
+.content_product {
+    padding: 10px 30px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.shortDescription {
+    font-family: "Bookman Old Style";
+    background: #e6e6fa;
+    font-size: 18px;
+    color: #cc0099;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+
+
+
+.DescriptionGood {
+    font-family: "Bookman Old Style";
+    color: #707070;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.toBye {
+    height: 50px;
+    width: 150px;
+    border: solid 2px violet;
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: deeppink;
+    font-style: italic;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 400px;
+    outline: none;
+    transition: border 0.4s;
+    margin-right: 50px;
+    margin-top: 20px;
+
+}
+
+.toBye:hover {
+    border-bottom: solid 4px indigo;
+    text-decoration-line: underline;
+}
+
+.toBye:active {
+    border-bottom: none;
+    border-top: solid 3px indigo;
+}
+
+
+
+.DeteiledGood,
+.production {
+    font-family: "Bookman Old Style";
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+
+.characteristics {
+    padding-left: 30px;
+}
+
+.characteristics_link {
+    font-family: "Bookman Old Style";
+    color: #505050;
+    font-size: 16px;
+    font-weight: 200;
+    list-style-image: url(img/sparkl.png)
+}
+
+
+.table {
+    font-family: "Bookman Old Style";
+    border: 1px solid #f39;
+    width: 350px;
+    height: 250px;
+    border-collapse: collapse;
+    margin: 20px;
+    text-align: center;
+}
+
+.table_coll {
+    border: 1px solid #f39;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+
+.production_style {
+    font-weight: 500;
+}
+
+.DescriptionGood::first-letter,
+.DeteiledGood::first-letter,
+.production::first-letter {
+    color: #66FFFF;
+}
+
+
+.footer {
+    height: 50px;
+    background-color: #660066;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
